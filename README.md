@@ -1,18 +1,28 @@
-# Salesforce DX Project: Next Steps
+# Twilio Lookup Salesforce Demo
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
-## How Do You Plan to Deploy Your Changes?
+![](./assets/Twilio-Lookup-Demo.gif)
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Prerequisite
 
-## Configure Your Salesforce DX Project
+You will need the following:
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+- [Twilio Account](https://www.twilio.com/try-twilio)
+- [Account SID and Auth Token](https://www.twilio.com/console)
 
-## Read All About It
+## Getting Started
+### Install
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+- Package Id: 04t5e000000hanT
+- [Production](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000hanT)
+- [Sandbox](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000hanT)
+
+### Twilio Credentials
+
+1. Go to Setup > Quick Find > Named Credentials.
+2. Click on Twilio Lookup.
+3. Click Edit.
+4. In the Username text field add your Twilio Account SID.
+5. In the Password text field add your Twilio Auth Token.
+6. Click Save.
