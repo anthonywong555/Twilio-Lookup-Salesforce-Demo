@@ -6,6 +6,19 @@
 	</types>
 	<types>
 		<members>Twilio_Lookup</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Twilio_Lookup_Demo</members>
+		<members>Twilio_Lookup_UtilityBar</members>
+		<name>FlexiPage</name>
+	</types>
+	<types>
+		<members>Twilio_Lookup</members>
 		<name>Flow</name>
 	</types>
 	<types>

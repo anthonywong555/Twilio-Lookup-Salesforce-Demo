@@ -174,6 +174,20 @@
             <targetReference>Assign_Screen_Values_to_Variables</targetReference>
         </connector>
         <fields>
+            <name>Twilio_Lookup_Logo</name>
+            <extensionName>flowruntime:image</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>imageName</name>
+                <value>
+                    <stringValue>Twilio_Lookup_Logo</stringValue>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+        <fields>
             <name>Introduction_Text</name>
             <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Lookup a Number&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 14px; font-family: &amp;quot;Whitney SSm A&amp;quot;, &amp;quot;Whitney SSm B&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; color: rgb(34, 34, 34);&quot;&gt;Know the details behind every phone number. Identify local-friendly number formats, reduce undelivered messages, and protect from spam and fraud. Enter a number below to lookup its details.&lt;/span&gt;&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
